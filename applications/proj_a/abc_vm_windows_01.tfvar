@@ -1,0 +1,6 @@
+resource_group_name     = "odxi-resourcegroup-01"
+resource_location = "eastus2"
+vnet_name               = "odxi-vnet-01"
+subnet_name             = "odxi-public-subnet-01"
+vm_size               = "ds2v2"
+host_name             = "testadivm-01"

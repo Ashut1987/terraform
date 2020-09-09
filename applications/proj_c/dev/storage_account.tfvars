@@ -1,0 +1,9 @@
+subscription_id = "d276ebc2-efd2-4b53-9eb4-304982e42f4b"
+resource_location = "eastus"
+resource_group_name = "test-rg-01"
+storage_name = "ashuttestst01"
+storage_subnet_name = "private-subnet-01"
+storage_vnet_name = "ashu-vnet-01"
+storage_containers = ["metadata","tfstate"]
+vnet_resource_group_name = "test-rg-01"
+#additional_local_subnets = ["",""]

@@ -1,0 +1,6 @@
+resource_group_name     = "odxp-resourcegroup-01"
+resource_location = "eastus2"
+vnet_name               = "odxp-vnet-01"
+subnet_name             = "odxp-public-subnet-01"
+vm_size               = "ds3v3"
+host_name             = "testadivm-02"

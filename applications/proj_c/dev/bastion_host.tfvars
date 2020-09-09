@@ -1,0 +1,7 @@
+resource_group_name = "odxi-network-rg-01"
+bastion_host_name = "odxi-bastion-host-01"
+bastion_subnet_name = "azurebastionsubnet"
+bastion_vnet_name = "odxi-vnet-test-01"
+bation_vnet_resource_group_name = "odxi-network-rg-01"
+public_ip_name = "bastion-host-pip-01"
+sku = "Standard"
