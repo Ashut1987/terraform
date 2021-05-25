@@ -40,4 +40,4 @@ jobs:
         export ARM_TENANT_ID=$(az account show --query tenantId | xargs)
         cd template/${{parameters.resource_type}}/
         terraform init -input=false
-        terraform plan -input=false -out="./tfoutput" -var-file="../../applications/proj_c/dev/${{parameters.resource_type}}.tfvars"
+       # terraform plan -input=false -out="./tfoutput" -var-file="../../applications/proj_c/dev/${{parameters.resource_type}}.tfvars"
